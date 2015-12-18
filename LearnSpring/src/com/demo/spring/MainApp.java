@@ -14,7 +14,7 @@ public class MainApp {
 
 	      HelloWorld obj = (HelloWorld) context.getBean("helloWorld");
 
-	      System.out.println("Message is--"+obj.getMessage());
+	      System.out.println("Message from office is--"+obj.getMessage());
 	      ((AbstractApplicationContext) context).registerShutdownHook();   
 	}
 }
