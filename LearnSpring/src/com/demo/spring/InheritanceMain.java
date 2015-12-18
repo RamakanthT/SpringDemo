@@ -3,6 +3,9 @@ package com.demo.spring;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+import com.demo.spring.beans.Inheritance1;
+import com.demo.spring.beans.Inheritance2;
+
 public class InheritanceMain {
 
 	 public static void main(String[] args) {

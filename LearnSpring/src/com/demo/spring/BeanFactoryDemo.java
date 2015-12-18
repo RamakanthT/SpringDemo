@@ -4,6 +4,8 @@ import org.springframework.beans.factory.xml.XmlBeanFactory;
 import org.springframework.context.ApplicationContext;
 import org.springframework.core.io.ClassPathResource;
 
+import com.demo.spring.beans.HelloWorld;
+
 public class BeanFactoryDemo {
 	
 	private static ApplicationContext context;
